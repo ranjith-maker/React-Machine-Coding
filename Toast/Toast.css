@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing : border-box;
+}
+html,
+body {
+ height : 100%;
+ width : 100%;
+ background-color : rgb(142, 91, 170); 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.wrap{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast-msg{
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 5px;
+  border: 2px black solid;
+  height: 30px;
+  padding: 5px 10px;
+
+}
+
+h2{
+  color: wheat;
+}
+
+button{
+width: 180px;
+background-color: skyblue;
+color: black;
+padding: 15px 20px;
+box-ordinal-group: 5px;
+font-size: 25px;
+cursor: pointer;
+}
+
+
+
+
+
