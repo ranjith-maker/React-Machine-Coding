@@ -1,0 +1,66 @@
+/* *{
+  margin: 0;
+ padding: 0;
+ box-sizing : border-box;
+}
+html,
+body {
+ height : 100%;
+ width : 100%;
+background-color: rgb(99, 43, 99);
+
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: auto;
+}
+
+
+.toast-container{
+position: fixed;
+top: 1rem;
+right: 1rem;
+
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+}
+
+.toast-msg{
+
+display: flex;
+gap: 25px;
+padding: 10px 10px;
+border-radius: 15px;
+
+span{
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+}
+
+.info{
+    background-color: aqua;
+    color: black;
+}
+
+
+.error{
+    background-color: red;
+    color: aliceblue;
+}
+
+
+.warning{
+background-color: orange;
+color: black;
+}
+
+.success {
+    background-color: green;
+    color: white;
+}
+
+ */
