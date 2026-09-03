@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing : border-box;
+}
+html,
+body {
+ height : 100%;
+ width : 100%;
+ background-color : rgb(104, 29, 104); 
+ color: aliceblue;
+
+}
+
+.tab-container{
+height: 150px;
+width: 280px;
+border: 2px black solid;
+
+}
+
+
+.tab-label{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+p{
+margin-top: 40px;
+margin-left: 45px;
+
+}
+
+
+button.active{
+    background-color: gray;
+}
+
