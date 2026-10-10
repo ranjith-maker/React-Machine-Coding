@@ -1,0 +1,32 @@
+/* *{
+  margin: 0;
+ padding: 0;
+ box-sizing : border-box;
+}
+html,
+body {
+ height : 100%;
+ width : 100%;
+ background-color : #101040;
+ color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.gold{
+  color: gold;
+}
+
+
+span{
+  display: inline-block;
+  width: 22px;
+  font-size:35px ;
+  margin-left: 10px;
+cursor: pointer;
+}
+
+
+ */

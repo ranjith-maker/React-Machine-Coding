@@ -1,0 +1,46 @@
+/* *{
+  margin: 0;
+ padding: 0;
+ box-sizing : border-box;
+}
+html,
+body {
+ height : 100%;
+ width : 100%;
+ background-color : #101040;
+ color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.star {
+  position: relative;
+  font-size: 50px;
+  color: gray;
+  cursor: pointer;
+}
+
+.star.gold {
+  color: gold;
+}
+
+
+/* half star 
+.star.half {
+  color: gray;
+}
+
+.star.half::before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: gold;
+} */
+
+
+
